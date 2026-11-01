@@ -1,0 +1,12 @@
+{
+  "name": "previta-arquitetura-referencia",
+  "version": "0.1.0",
+  "description": "Arquitetura de referência da PreVita para dados de saúde com provas em blockchain: nenhum dado pessoal ou clínico na cadeia.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  }
+}
