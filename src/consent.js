@@ -17,7 +17,7 @@ const GENESIS = '0'.repeat(64);
 const PSEUDONYM = /^[0-9a-f]{64}$/;
 // Finalidade vem de uma lista fechada: texto livre poderia carregar dado pessoal
 // para a cadeia.
-export const PURPOSES = new Set(['assistencia', 'segunda-opiniao', 'auditoria-faturamento', 'pesquisa-anonimizada']);
+export const PURPOSES = new Set(['assistencia', 'segunda-opiniao', 'auditoria-faturamento', 'autorizacao-previa', 'pesquisa-anonimizada']);
 
 export class ConsentLedger {
   constructor() {
